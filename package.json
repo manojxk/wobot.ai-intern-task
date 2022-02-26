@@ -1,21 +1,18 @@
+
+
 {
-  "name": "100-days-100-projects-challenge",
+  "name": "intern task",
   "version": "1.0.0",
-  "description": "Goal setter",
+  "description": "task",
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/manojxk/100-DAYS-100-PROJECTS-CHALLENGE.git"
-  },
+
   "author": "manoj",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/manojxk/100-DAYS-100-PROJECTS-CHALLENGE/issues"
-  },
-  "homepage": "https://github.com/manojxk/100-DAYS-100-PROJECTS-CHALLENGE#readme",
+
+ 
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",
