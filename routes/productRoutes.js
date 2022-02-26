@@ -1,14 +1,12 @@
-const express = require('express')
-const router = express.Router()
+const express = require("express");
+const router = express.Router();
 const {
-    getProducts,
-    setProduct,
+  getProducts,
+  setProducts,
+} = require("../controllers/productController");
 
-} = require('../controllers/productController')
+const { protect } = require("../middleware/authMiddleware");
 
-const { protect } = require('../middleware/authMiddleware')
+router.route("/").get(protect, getProducts).post(protect, setProducts);
 
-router.route('/').get(protect, getProducts).post(protect, setProduct)
-
-
-module.exports = router
+module.exports = router;
